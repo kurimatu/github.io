@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(179, 42, 18, 1)
+}
+.main_1 {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(179, 42, 18, 1);
+}
+.name_face {
+    width: 50%;
+    float: left;
+}
+.face {
+    width: 45%;
+    margin: 10% 25%;
+    border-radius: 50px;
+    /* filter:drop-shadow(10px 10px 5px #ffffff); */
+    filter:drop-shadow(5px 10px 5px rgb(5, 5, 5, 0.8));
+}
+.content_1 {
+    color: white;
+    width: 50%;
+    font-size: 200%;
+    margin-top: 10%;
+    float: right;
+}
+.info_name {
+    color: rgba(179, 42, 18, 1);
+    background-color: #ffffff;
+    width: 65%;
+    text-align: center;
+    padding: 30px;
+    margin: 4% 0 0 10%;
+    border-radius: 30px;
+    filter:drop-shadow(5px 10px 5px rgb(5, 5, 5, 0.8));
+}
+br {
+    display: none;
+}
+
+
+.main_2 {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(179, 42, 18, 1);
+}
+.kyara_pic {
+    position: relative;
+    width: 50%;
+    float: right;
+    filter:drop-shadow(5px 10px 5px rgb(5, 5, 5, 0.8));
+}
+.kyara_pic img {
+    margin: 10% 25% 10% 10%;
+    width: 70%;
+}
+.kyara1 {
+    display: block;
+    width: 50%;
+    border-radius: 50px;
+}
+.kyara2 {
+    position: absolute;
+    top: 0;
+    border-radius: 50px;
+}
+.kyara3 {
+    position: absolute;
+    top: 0;
+    border-radius: 50px;
+}
+.kyara4{
+    position: absolute;
+    top: 0;
+    border-radius: 50px;
+}
+@keyframes kyara_pic {
+	0% {
+		opacity: 0;
+    }
+    12%{
+        opacity:1;
+    }
+
+	25% {
+		opacity: 0;
+    }
+}
+.kyara_pic img {
+	animation-name: kyara_pic;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+.kyara_pic .kyara2 {
+	animation-delay:2s;
+}
+.kyara_pic .kyara3 {
+	animation-delay:5s;
+}
+.kyara_pic .kyara4 {
+    animation-delay:0.5s;
+}
+.content_2 {
+    color: white;
+    width: 50%;
+    font-size: 200%;
+    margin-top: 6%;
+    float: left;
+}
+.kyara_title {
+    margin-left: 10%;
+}
+.info_kyara {
+    color: rgba(179, 42, 18, 1);
+    background-color: #ffffff;
+    width: 65%;
+    text-align: center;
+    padding: 30px;
+    margin: 4% 0 0 15%;
+    border-radius: 30px;
+    filter:drop-shadow(5px 10px 5px rgb(5, 5, 5, 0.8));
+}
+
+
+
+@media screen and (max-width:425px) {  
+    .body {
+        background-color: rgba(179, 42, 18, 1);
+    }
+    .face {
+        width: 100%;
+        margin: 10% 50%;
+    }
+    .main_1 {
+        height: 600px;
+    }
+    .content_1 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .main_2 {
+        height: 470px;
+    }
+    .name_title {
+        text-align: center;
+    }
+    .info_name {
+        margin: 0 auto;
+    }
+    .responsive {
+        font-size: 20px;
+    }
+    .birthday {
+        font-size: 50%;
+    }
+    .faculty {
+        font-size: 90%;
+    }
+    .birthplace_pic {
+        width:  85%;
+        margin-right: 15%;
+    }
+    .birthplace_pic img {
+        margin: 10%;
+        width: 100%;
+    }
+    .content_2 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .birthplace_title {
+        text-align: center;
+        margin-left: 0%;
+    }
+    .info_birthplace {
+        margin: 0 auto;
+    }
+    .local {
+        font-size: 60%;
+    }
+}
