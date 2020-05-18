@@ -93,19 +93,19 @@ br {
 }
 .kyara_pic img {
 	animation-name: kyara_pic;
-	animation-duration: 10s;
+	animation-duration: 1s;
 	animation-iteration-count: infinite;
 	opacity: 0;
 }
 
 .kyara_pic .kyara2 {
-	animation-delay:2s;
+	animation-delay:0.499s;
 }
 .kyara_pic .kyara3 {
-	animation-delay:5s;
+	animation-delay:0.5s;
 }
 .kyara_pic .kyara4 {
-    animation-delay:0.5s;
+    animation-delay:0.50001s;
 }
 .content_2 {
     color: white;
